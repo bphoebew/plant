@@ -1,0 +1,129 @@
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+.leaf{
+  margin-top: 2%;
+  list-style: none;
+  width:100%;
+  height:90vh;
+  border-radius: 550px 0px 550px 0px;
+  font-family: 'Ubuntu', sans-serif;
+    /* background: #00c975; */
+    background: #35B5A6;
+}
+body{
+    background: #9ad2cbff;
+}
+
+html, body, canvas, #instructions {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#instructions {
+	opacity: 1;
+	transition: opacity 2s;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+#instructions, canvas{
+  z-index: -9;
+}
+.title{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 80px;
+  text-align: right;
+  padding-right: 510px;
+  color: white;
+  margin: 0;
+}
+.line{
+    border-radius: 550px 0px 550px 0px;
+    border: 5px solid #109648;
+    width: 1000px;
+        transform: rotate(-20deg);
+        position: absolute;
+        top: 50%;
+        left: 10%;
+}
+.tear {
+  width: 200px;
+  height: 200px;
+  border-radius: 0 50% 50% 50%;
+  background-color: #8AF3FF;
+  /* border: 3px solid #50afff; */
+    border: 3px solid #8AF3FF;
+  transform: rotate(90deg);
+  margin-top: 20px;
+}
+.tearTwo{
+  width: 200px;
+  height: 200px;
+  border-radius: 0 50% 50% 50%;
+  background-color: #8AF3FF;
+  /* border: 3px solid #50afff; */
+    border: 3px solid #8AF3FF;
+  transform: rotate(90deg);
+  margin-top: 20px;
+}
+.allTear{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+    /* margin-top: 10px; */
+    margin-left: 200px;
+}
+.allPerson{
+  display: flex;
+  flex-direction: row;
+}
+.profile{
+  width: 150px;
+  height: 150px;
+  margin-bottom: -160px;
+  margin-left: 30px;
+  border-radius: 50%;
+    transform: rotate(270deg);
+    object-fit: cover;
+}
+.name{
+  text-align: center;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.des{
+  text-align: center;
+  margin-left: 50px;
+  font-size: 15px;
+}
+.flexCol{
+  display:flex;
+  flex-direction: column;
+}
+.backArrow{
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  bottom: 10%;
+}

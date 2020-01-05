@@ -20,8 +20,8 @@ var demo = {
 	speed: 1,
 	// - color of particles
 	color: {
-		r: '80',
-		g: '175',
+		r: '138',
+		g: '243',
 		b: '255',
 		a: '0.5'
 	},

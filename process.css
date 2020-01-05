@@ -1,0 +1,84 @@
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+.leaf{
+  margin-top: 2%;
+  list-style: none;
+  width:100%;
+  height:90vh;
+  border-radius: 0px 550px 0px 550px;
+  font-family: 'Ubuntu', sans-serif;
+    /* background: #00c975; */
+    background: #35B5A6;
+}
+body{
+    background: #9ad2cbff;
+}
+
+html, body, canvas, #instructions {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.logo{
+  background-color: white;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+.title{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 80px;
+  text-align: left;
+  padding-left: 460px;
+  /* padding-right: 30px; */
+  color: white;
+  margin: 0;
+}
+iframe{
+position: absolute;
+top: 35%;
+left: 30%;
+}
+.vision{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-left: -60px;
+    padding-top: 15px;
+}
+#instructions {
+	opacity: 1;
+	transition: opacity 2s;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+}
+#instructions, canvas{
+  z-index: -9;
+}
+.backArrow{
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  top: 8%;
+}
